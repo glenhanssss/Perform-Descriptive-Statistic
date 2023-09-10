@@ -11,7 +11,7 @@ from sklearn import linear_model
 st.set_page_config(layout="wide")
 
 # Title for the web app
-st.title("Perform Application")
+st.title("Perform Descriptive Statistics Application")
 st.markdown("<strong>The application reads the first <em>ROW</em> in your file as the <em>Column Title (Variable Name)</em> for each <em>COLUMN</em> in the dataset. So make sure that the first <em>ROW</em> in your file is the name of each <em>Column Title (Variable Name)</em> in the dataset. Also, make sure that every cell in your file is Valid (all cells are filled and there are no duplicates) for better analysis.</strong>", unsafe_allow_html=True)
 st.markdown("<strong>This application allows you to Perform Descriptive Statistics, such as Grouping Column names, and see the Descriptive Statistics visualization Results (Sum, Mean, Median, etc). This can helps businesses, industry, trade, and other sectors.</strong>", unsafe_allow_html=True)
 
